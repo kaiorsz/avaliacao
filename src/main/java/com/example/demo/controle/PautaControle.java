@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.servico.PautaServico;
 import com.example.demo.servico.SessaoVotacaoServico;
 import com.example.demo.servico.VotoServico;
-import org.springframework.web.server.ResponseStatusException;
-
-import javax.validation.constraints.Null;
-import java.io.IOException;
-import java.text.ParseException;
 
 @RestController
 @RequestMapping("/pauta")
